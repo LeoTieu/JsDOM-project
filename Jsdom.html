@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: aliceblue;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .container {
+            background-color: beige;
+            padding: 200px;
+            position: relative;
+        }
+
+        .container img {
+            width: 10vw;
+            height: 15vh;
+        }
+
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .square-image {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <button class="button">Button 1</button>
+            <button class="button">Button 2</button>
+            <button class="button">Button 3</button>
+        </div>
+
+        <div class="row">
+            <button class="button">Button 4</button>
+            <button class="button">Button 5</button>
+            <button class="button">Button 6</button>
+        </div>
+
+        <div class="row">
+            <button class="button">Button 7</button>
+            <button class="button">Button 8</button>
+            <button class="button">Button 9</button>
+        </div>
+    </div>
+
+    <img class="square-image" src="rice.jpg" alt="Image not found">
+
+
+</body>
+</html>
